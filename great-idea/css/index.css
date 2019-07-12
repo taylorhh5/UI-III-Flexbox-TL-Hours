@@ -63,3 +63,77 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+.container {
+	width :880px;
+	margin: 0 auto;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	align-items: center;
+}
+
+header nav{
+	display: flex;
+}
+header nav a{
+	color: gray;
+	text-decoration: none;
+	margin-right: 65px;
+}
+
+.cta {
+	display:flex;
+	justify-content: space-around;
+	margin-top: 75px;
+	align-items:75px;
+	border-bottom: 1px solid black;
+	padding-bottom:70px;
+	margin-bottom:40px;
+}
+.cta-text {
+	font-size: 77px;
+	text-align: center;
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+.cta-text button{
+	background: white;
+	border: 1px solid black;
+	padding: 8px 45px;
+	font-size:17px;
+}
+.top-content {
+	display: flex;
+	margin-bottom:45px;
+}
+.bottom-content {
+	display: flex;
+	margin-top: 40px;
+	border-bottom: 1px solid black;
+padding-bottom:40px;
+}
+
+.bottom-content .text-content:nth-child(2) {
+	padding: 0 10px;
+background: green;
+}
+
+
+.contact{
+	margin-top: 50px;
+}
+
+.contact p{
+	margin: 20px 0;
+
+}
+
+footer p{
+	text-align: center;
+	background: blue;
+	padding: 50px 0;
+}
